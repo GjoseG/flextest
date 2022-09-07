@@ -44,7 +44,12 @@ a{
 }
 
 .hero-statement{
-        margin-right: 5%;
+        margin-right: 0%;
+}
+
+.first-paragraph{
+    border: 1px solid red;
+    width: 50%;
 }
 
 /* Second section of the website */
@@ -54,14 +59,16 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    background-color: #eee;
-
 }
 
 .content2{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+
+    width: 75%;
+
+    border: 1px solid red;
 }
 
 .module{
@@ -70,7 +77,7 @@ a{
     justify-content: center;
     align-items: center;
 
-    width: 150px;
+    width: 250px;
     text-align: center;
     margin: 15px;
 
@@ -80,12 +87,61 @@ a{
     border: 5px solid #2379fa;
     border-radius: 10px;
 
-    height: 140px;
-    width: 140px;;
+    height: 200px;
+    width: 200px;;
 }
 
 .subtext{
     color: #1d293b;
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+
+    background-color: #eee;
+
+    height: 30vh;
+
+}
+
+.content3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 75%;
+
+}
+
+.qoute{
+    color: black;
+    width: 75%;
+    
+    font-weight: 300;
+    font-size: 24px;
+    font-style: italic;
+
+    margin-bottom: 5px;
+
+}
+
+.author{
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
+
+    margin: 0;
+
+}
+
+.authorbox{
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+
+    margin-right: 50px;
 }
 
 
@@ -124,6 +180,6 @@ button{
 }
 
 img{
-    height: 200px;
-    width: 350px;
+    height: 250px;
+    width: 400px;
 }
