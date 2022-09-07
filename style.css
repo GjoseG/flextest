@@ -144,7 +144,64 @@ a{
     margin-right: 50px;
 }
 
+/* Section 4 Stying */
 
+.section4{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid red;
+
+    height: 30vh;
+}
+
+.content4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 75%;
+    height: 100%;
+
+    border: 1px solid red;
+}
+
+.modal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    background-color: #2f82ff;
+    border-radius: 10px;
+    width: 75%;
+    height: 50%;
+}
+
+.modal-left{
+    padding-left: 10%;
+}
+
+.modal-right{
+    padding-right: 10%;
+}
+
+.modal-button{
+    background-color: #2f82ff;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.modal-header{
+    color: white;
+    margin-bottom: 5px;
+}
+ .modal-paragraph{
+    margin-top: 0;
+ }
 
 
 
